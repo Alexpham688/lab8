@@ -19,7 +19,7 @@ h1 {
    background-color:blue;
 }
 .food  {
-  float:left;
+  /*float:left;*/
   /*text-align:center;*/
 
 
@@ -36,6 +36,8 @@ div {
   width: 100%;
 }
 
+body  {
+   text-align:center;
 }
 
 }

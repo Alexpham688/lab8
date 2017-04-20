@@ -1,7 +1,7 @@
 var totalBill = 0;
 var newElement=document.createElement('div');
 newElement.style.backgroundColor = "lightgrey";
-newElement.style.height = "500px";
+newElement.style.height = "380px";
 newElement.style.width = "500px";
 
 
@@ -64,7 +64,7 @@ var groceryList=[
     var itemPrice=document.createElement("div");
     itemPrice.innerText=i.price;
     newElement.appendChild(itemPrice);
-    var list=document.getElementById("price")
+    // var list=document.getElementById("price")
     itemPrice.className="price";
 
 
@@ -75,18 +75,21 @@ var groceryList=[
 });
 
 
-// var newElement2=document.createElement('div');
-// newElement.style.backgroundColor = "lightgrey";
-// newElement.style.height = "300px";
-// newElement.style.width = "400px";
+var itemTotal=document.createElement('div');
+itemTotal.style.backgroundColor = "lightblue";
+itemTotal.style.height = "100px";
+itemTotal.style.width = "500px";
+itemTotal.innerText=total;
+document.body.appendChild(itemTotal);
 // var itemTotal.innerText =total;
 // newElement2.appendChild(itemTotal);
 // var list=document.getElementById("total");
-// itemPrice.className="total";
+// itemPrice.className="total"; ///  created appendChild but doens't work
 
  console.log('total is ' + total+ ' without tax')
-
 console.log( 'total is ' + total * taxTwo + ' with tax')
-var itemTotal=document.createElement("total");
-itemTotal.innerText=i.total;
-newElement.appendChild(itemTotal);
+
+
+// var itemTotal = document.createElement("div");
+// itemTotal.innerText=i.total;
+// itemTotal.appendChild(itemTotal);
