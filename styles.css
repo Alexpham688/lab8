@@ -1,0 +1,41 @@
+.price {
+  float:left;
+
+}
+h1 {
+  font-size:4em;
+  color:blue;
+  font-family:georgia ,times new roman, serif;
+  text-align:center;
+  background-color:lightgrey;
+}
+.input {
+
+   text-align: center;
+   border:2px solid blue;
+}
+}
+.heading {
+   background-color:blue;
+}
+.food  {
+  float:left;
+  /*text-align:center;*/
+
+
+}
+
+.price {
+   /*border: 2px solid blue;*/
+   float:left;
+   display:inline-block;
+}
+
+div {
+  display: block;
+  width: 100%;
+}
+
+}
+
+}
